@@ -1,0 +1,20 @@
+  219  git status
+  220  git checkout -b feature
+  221  touch README.md
+  222  vim .gitignore 
+  223  git status
+  224  git add README.md 
+  225  git status
+  226  git add .gitignore 
+  227  git commit -m "Add README, update .gitignore"
+  228  git log
+  229  git push -u origin feature
+  230  git commit --amend -m "upd .gitignore amend"
+  231  git status
+  232  git checkout main
+  233  git merge feature
+  234  git log
+  235  git push
+  236  git pull
+  237  git push
+  238  history | tail -20 >> history.txt
